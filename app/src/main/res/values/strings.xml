@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">練習アプリ</string>
+    <string name="sub_title">サブ画面タイトル</string>
+    <string name="sub_hint">名前を入力してください</string>
+    <string name="man">男</string>
+    <string name="woman">女</string>
+    <string name="name">名前</string>
+    <string name="name_hint">名前を入力してください</string>
+    <string name="comfirm">確認</string>
+    <string name="send">送信</string>
+    <string name="clear">クリア</string>
+    <string name="profile">プロフィール</string>
+    <string name="pass_hint">パスワードは数値で入力してください</string>
+    <string name="age">年代</string>
+    <string name="sex">性別</string>
+    <string name="age10">10代</string>
+    <string name="age20">20代</string>
+    <string name="age30">30代</string>
+    <string name="add">データ追加</string>
+    <string name="data_hint">データを入力してください</string>
+    <string-array name="curryList">
+        <item>ドライカレー</item>
+        <item>カツカレー</item>
+    </string-array>
+</resources>
