@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -25,7 +26,9 @@ public class ListActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 TextView tv = (TextView) view;
-                Toast.makeText(getApplicationContext(),tv.getText(),Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent( getApplicationContext() , PreferencesActivity.class);
+                intent.putExtra("item",tv.getText());
+                startActivity(intent);
             }
         });
     }

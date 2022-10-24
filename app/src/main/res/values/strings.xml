@@ -18,6 +18,9 @@
     <string name="age30">30代</string>
     <string name="add">データ追加</string>
     <string name="data_hint">データを入力してください</string>
+    <string name="save">保存</string>
+    <string name="cancel">キャンセル</string>
+    <string name="kansou">感想を入力してください</string>
     <string-array name="curryList">
         <item>ドライカレー</item>
         <item>カツカレー</item>
